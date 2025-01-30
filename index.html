@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>web留言板</title>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="init();">
+    <h1>web留言板</h1>
+    <table>
+        <tr><td>Name:<input type="text" id="name"></td></tr>
+        <tr><td>Text:<input type="text" id="memo"></td></tr>
+        <tr>
+            <td></td>
+            <td><input type="button" value="Save" onclick="savedata();"></td>
+        </tr>
+    </table>
+    <hr />
+    <table id="datatable" boder="1"></table>
+    <p id="msg"></p>
+</body>
